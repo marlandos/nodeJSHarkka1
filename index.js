@@ -28,7 +28,7 @@ const server = http.createServer((req, res) => {
 
 // Muodosta polku
 let filePath = path.join(__dirname, 
-    'public', 
+    'Public', 
     req.url === '/' ? 'index.html' : req.url
 );
 
